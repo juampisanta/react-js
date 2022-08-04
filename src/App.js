@@ -1,12 +1,14 @@
 
 import './App.css';
-import NavBar from './componentes/NavBar';
+import NavBar from './componentes/NavBar.js';
 
 function App() {
   return (
-    <div>
-      <img whidth="400" scr="/portadas/shoes.png" alt="majuShoes" />
-      </div>
+    <head>
+    
+      
+      <NavBar />
+      </head>
   );
 }
 
